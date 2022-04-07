@@ -92,7 +92,7 @@ body {
 
 .button2 {
     padding: 0.8em 1.8em;
-    border: 4px solid #ff6b00;
+    border: 3px solid #ff6b00;
     position: relative;
     overflow: hidden;
     background-color: transparent;
@@ -182,7 +182,7 @@ body {
 
 /* Botón 4 */
 .draw-border {
-    box-shadow: inset 0 0 0 4px #f2f2f2;
+    box-shadow: inset 0 0 0 3px #f2f2f2;
     color: #f2f2f2;
     transition: color 0.25s 0.0833333333s;
     position: relative;
@@ -201,13 +201,13 @@ body {
    }
    
    .draw-border::before {
-    border-bottom-width: 4px;
-    border-left-width: 4px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
    }
    
    .draw-border::after {
-    border-top-width: 4px;
-    border-right-width: 4px;
+    border-top-width: 3px;
+    border-right-width: 3px;
    }
    
    .draw-border:hover {
