@@ -11,7 +11,7 @@ body {
 a {
     color: #fff;
     text-decoration: none;
-}	
+}
 
 .padre {
     background-color: #2f2f2f;
@@ -28,7 +28,7 @@ h3 {
 h1 {
     font-size: 2rem;
     margin: 0;
-}	
+}
 
 .hijo_uno {
     background-color: #2f2f2f;
@@ -118,9 +118,9 @@ h1 {
     z-index: 1;
     font-family: inherit;
     color: #ff6b00;
-   }
-   
-   .button2::before {
+}
+
+.button2::before {
     content: '';
     width: 0;
     height: 300%;
@@ -132,53 +132,53 @@ h1 {
     transition: .5s ease;
     display: block;
     z-index: -1;
-   }
-   
-   .button2:hover::before {
-    width: 105%;
-   }
-   
-   .button2:hover {
-    color: #f2f2f2;
-   }
-   
+}
 
-   /* Botón 3 */
+.button2:hover::before {
+    width: 105%;
+}
+
+.button2:hover {
+    color: #f2f2f2;
+}
+
+
+/* Botón 3 */
 .cta {
     border: none;
     background: none;
-    color:#f2f2f2;
-   }
-   
-   .cta span {
+    color: #f2f2f2;
+}
+
+.cta span {
     padding-bottom: 7px;
     letter-spacing: 4px;
     font-size: 10px;
     padding-right: 15px;
     text-transform: uppercase;
-   }
-   
-   .cta svg {
+}
+
+.cta svg {
     transform: translateX(-8px);
     transition: all 0.3s ease;
     fill: #f2f2f2;
-   }
-   
-   .cta:hover svg {
+}
+
+.cta:hover svg {
     transform: translateX(0);
-   }
-   
-   .cta:active svg {
+}
+
+.cta:active svg {
     transform: scale(0.9);
-   }
-   
-   .hover-underline-animation {
+}
+
+.hover-underline-animation {
     position: relative;
     color: #f2f2f2;
     padding-bottom: 20px;
-   }
-   
-   .hover-underline-animation:after {
+}
+
+.hover-underline-animation:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -189,12 +189,12 @@ h1 {
     background-color: #f2f2f2;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-   }
-   
-   .cta:hover .hover-underline-animation:after {
+}
+
+.cta:hover .hover-underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-   }
+}
 
 /* Botón 4 */
 .draw-border {
@@ -202,9 +202,10 @@ h1 {
     color: #f2f2f2;
     transition: color 0.25s 0.0833333333s;
     position: relative;
-   }
-   
-   .draw-border::before, .draw-border::after {
+}
+
+.draw-border::before,
+.draw-border::after {
     border: 0 solid transparent;
     box-sizing: border-box;
     content: "";
@@ -214,38 +215,39 @@ h1 {
     height: 0;
     bottom: 0;
     right: 0;
-   }
-   
-   .draw-border::before {
+}
+
+.draw-border::before {
     border-bottom-width: 3px;
     border-left-width: 3px;
-   }
-   
-   .draw-border::after {
+}
+
+.draw-border::after {
     border-top-width: 3px;
     border-right-width: 3px;
-   }
-   
-   .draw-border:hover {
+}
+
+.draw-border:hover {
     color: #ff6b00;
-   }
-   
-   .draw-border:hover::before, .draw-border:hover::after {
+}
+
+.draw-border:hover::before,
+.draw-border:hover::after {
     border-color: #ff6b00;
     transition: border-color 0s, width 0.25s, height 0.25s;
     width: 100%;
     height: 100%;
-   }
-   
-   .draw-border:hover::before {
+}
+
+.draw-border:hover::before {
     transition-delay: 0s, 0s, 0.25s;
-   }
-   
-   .draw-border:hover::after {
+}
+
+.draw-border:hover::after {
     transition-delay: 0s, 0.25s, 0s;
-   }
-   
-   .btn {
+}
+
+.btn {
     background: none;
     border: none;
     cursor: pointer;
@@ -253,10 +255,10 @@ h1 {
     font: 700 17px "Roboto Slab", sans-serif;
     padding: 1em 2em;
     letter-spacing: 0.05rem;
-   }
-   
- /* Botón 4 */
-    .sk {
+}
+
+/* Botón 4 */
+.sk {
     border: none;
     padding: 0.7em 2em;
     font-size: 18px;
@@ -266,30 +268,29 @@ h1 {
     border-radius: 9px;
     background: linear-gradient(225deg, #181818, #2e2e2e);
     box-shadow: -5px 5px 10px #191919,
-                5px -5px 10px #292929;
-   }
-   
-   .sk:hover {
+        5px -5px 10px #292929;
+}
+
+.sk:hover {
     background: #212121;
     transition: background 1s ease;
     box-shadow: -5px 5px 10px #191919,
-                5px -5px 10px #292929;
-   }
-   
-   .sk:active {
+        5px -5px 10px #292929;
+}
+
+.sk:active {
     transition: box-shadow .1s ease;
     border-radius: 9px;
     background: #212121;
     box-shadow: inset -5px 5px 10px #191919,
-                 inset 5px -5px 10px #292929;
-   }
-   
-   span {
+        inset 5px -5px 10px #292929;
+}
+
+span {
     opacity: 0.5;
     transition: opacity 0.2s ease;
-   }
-   
-   .sk:hover span {
+}
+
+.sk:hover span {
     opacity: 0.7;
-   }
-   
+}
